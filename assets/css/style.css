@@ -2,12 +2,30 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
+    
+   transition: 5s;
 }
+
+.ex-1-square:hover{
+   background-color: red;
+}
+
+/* ESERCIZIO 2 */
+
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 5s;
 }
+
+.ex-2-square:active{
+    height: 100px;
+    width: 300px;
+}
+
+/* ESERCIZIO 3 */
+
 .ex-3-square {
     width: 100px;
     height: 100px;
