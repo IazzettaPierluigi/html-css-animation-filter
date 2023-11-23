@@ -124,8 +124,23 @@
 /* ESERCIZIO 11 */
 
 .ex-11-icon {
+    font-size: 60px;}
+
+.ex-11-icon:hover {
     font-size: 60px;
+    animation: spinnatrequarti 1s linear;
 }
+
+@keyframes spinnatrequarti{
+    0% {transform: rotate(0);}
+
+    50% {transform: rotate(300deg);}
+
+    
+}
+
+/* ESERCIZIO 12 */
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
