@@ -74,7 +74,7 @@
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
-    transition: 5s;
+    transition: 3s;
 }
 
 .ex-6-img:hover{
@@ -82,6 +82,14 @@
 }
 
 /* ESERCIZIO 7 */
+
+.ex-7-img:hover{
+    filter:grayscale(1) blur(2px);
+}
+
+/* ESERCIZIO 8 */
+
+
 
 .ex-9-img {
     margin: 50px 100px;
