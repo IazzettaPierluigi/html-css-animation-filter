@@ -99,7 +99,16 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 5s;
 }
+
+.ex-9-img:hover{
+    filter:grayscale(1) blur(1px) ;
+    border-radius: 10%;
+    transform: scale(0.7)
+}
+
+
 .ex-10-icon {
     font-size: 60px;
 }
