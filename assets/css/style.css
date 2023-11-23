@@ -108,10 +108,21 @@
     transform: scale(0.7)
 }
 
+/* ESERCIZIO 10 */
 
 .ex-10-icon {
     font-size: 60px;
+    animation: spinna 1s linear infinite;
 }
+
+@keyframes spinna{
+    from{ transform: rotate(1turn);
+    }
+}
+
+
+/* ESERCIZIO 11 */
+
 .ex-11-icon {
     font-size: 60px;
 }
