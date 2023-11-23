@@ -89,7 +89,12 @@
 
 /* ESERCIZIO 8 */
 
+.ex-8-img:hover{
+    filter:grayscale(1) blur(5px) ;
+    border-radius: 50%;
+}
 
+/* ESERCIZIO 9 */
 
 .ex-9-img {
     margin: 50px 100px;
